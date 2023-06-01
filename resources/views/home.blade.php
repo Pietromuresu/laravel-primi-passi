@@ -7,6 +7,9 @@
     <title>Home - Laravel Primi Passi</title>
 </head>
 <body>
-<h1>Hello {{ $name }} {{ $surname }}</h1>
+    @include('partials.header')
+
+
+    <h1 style="text-align: center;">Hello {{ $name }} {{ $surname }}</h1>
 </body>
 </html>
